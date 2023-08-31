@@ -29,3 +29,6 @@ for _ in range(t):
             table[i][j] += min(minimum)
 
     print(table[0][k-1])
+
+
+    
