@@ -32,4 +32,9 @@ def solution(maps):
         return maps[len(maps)-1][len(maps[0])-1]
     
     answer = bfs(0,0)
+    if answer == 1:
+        answer = -1
     return answer
+
+
+
